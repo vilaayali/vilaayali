@@ -14,7 +14,7 @@
 
 ## 👨‍💻 About Me
 
-Software Engineer with **2+ years of experience** building scalable web applications with **React.js, Next.js and Node.js**. I work on real-time systems, REST APIs and responsive UIs, with a focus on clean code and performance.
+Software Engineer with **3+ years of experience** building scalable web applications with **React.js, Next.js and Node.js**. I work on real-time systems, REST APIs and responsive UIs, with a focus on clean code and performance.
 
 - ⚡ Built real-time apps streaming live device data over **WebSockets**
 - 🚀 Delivered **2x faster** response times through lazy loading and Redux optimization
