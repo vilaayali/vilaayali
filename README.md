@@ -6,7 +6,6 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=640&lines=React+%E2%80%A2+Next.js+%E2%80%A2+Node.js;Real-time+Apps+with+WebSockets;Scalable+REST+APIs;Clean+Code+%26+Fast+UIs" alt="Typing SVG" />
 
 <p>
-  <a href="https://www.vilaayali.com/"><img src="https://img.shields.io/badge/vilaayali.com-000000?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
   <a href="https://linkedin.com/in/syedvilaayali"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:vilaayali89@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
