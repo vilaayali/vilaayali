@@ -6,11 +6,12 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=640&lines=React+%E2%80%A2+Next.js+%E2%80%A2+Node.js;Real-time+Apps+with+WebSockets;Scalable+REST+APIs;Clean+Code+%26+Fast+UIs" alt="Typing SVG" />
 
 <p>
+  <a href="https://www.vilaayali.com/"><img src="https://img.shields.io/badge/vilaayali.com-000000?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
   <a href="https://linkedin.com/in/syedvilaayali"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:vilaayali89@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
-<img src="https://img.shields.io/github/followers/vilaayali?label=Followers&style=flat-square&color=58a6ff" />
+<img src="https://komarev.com/ghpvc/?username=vilaayali&color=58a6ff&style=flat-square&label=Profile+Views" />
 <img src="https://img.shields.io/badge/Experience-2%2B%20Years-58a6ff?style=flat-square" />
 <img src="https://img.shields.io/badge/Open%20to-Work-2ea44f?style=flat-square" />
 
