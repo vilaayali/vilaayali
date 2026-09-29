@@ -10,7 +10,6 @@
   <a href="mailto:vilaayali89@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
-<img src="https://komarev.com/ghpvc/?username=vilaayali&color=58a6ff&style=flat-square&label=Profile+Views" />
 <img src="https://img.shields.io/github/followers/vilaayali?label=Followers&style=flat-square&color=58a6ff" />
 <img src="https://img.shields.io/badge/Experience-2%2B%20Years-58a6ff?style=flat-square" />
 <img src="https://img.shields.io/badge/Open%20to-Work-2ea44f?style=flat-square" />
