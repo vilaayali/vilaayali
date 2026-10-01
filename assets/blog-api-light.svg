@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="280" viewBox="0 0 600 280">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7C5CFF"/><stop offset="1" stop-color="#22D3EE"/></linearGradient></defs>
+<rect x="0.5" y="0.5" width="599" height="279" rx="20" fill="#FFFFFF" stroke="#E7E7E1"/>
+<rect x="36" y="0" width="64" height="3" fill="url(#g)"/>
+<text x="36" y="58" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="13" letter-spacing="2" fill="#5E6573">01 / BACKEND</text>
+<text x="564" y="58" text-anchor="end" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="22" fill="#5E6573">↗</text>
+<text x="34" y="106" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="-1" fill="#0B0D12">Blog Management API</text>
+<g font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="17" fill="#5E6573"><text x="36" y="150">JWT auth, author-owned posts, search and filters</text><text x="36" y="176">with pagination, image uploads and full Swagger</text><text x="36" y="202">docs.</text></g>
+<g font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="13" fill="#2A2F3A"><rect x="36" y="222" width="75" height="28" rx="14" fill="#F1F1EC" stroke="#E7E7E1"/><text x="73" y="241" text-anchor="middle">Node.js</text><rect x="118.80000000000001" y="222" width="75" height="28" rx="14" fill="#F1F1EC" stroke="#E7E7E1"/><text x="156" y="241" text-anchor="middle">Express</text><rect x="201.60000000000002" y="222" width="100" height="28" rx="14" fill="#F1F1EC" stroke="#E7E7E1"/><text x="252" y="241" text-anchor="middle">PostgreSQL</text><rect x="309.6" y="222" width="100" height="28" rx="14" fill="#F1F1EC" stroke="#E7E7E1"/><text x="360" y="241" text-anchor="middle">Cloudinary</text></g>
+</svg>
