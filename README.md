@@ -158,9 +158,9 @@ gitGraph
 > [!NOTE]
 > Stats include private repositories.
 
-<img src="https://streak-stats.demolab.com?user=vilaayali&hide_border=true&background=0D1117&stroke=30363D&ring=F78166&fire=F78166&currStreakLabel=F78166&sideLabels=E6EDF3&currStreakNum=E6EDF3&sideNums=E6EDF3&dates=9198A1&border_radius=6" width="49%" /> <img src="./metrics.languages.svg" width="49%" />
+<img src="https://streak-stats.demolab.com?user=vilaayali&hide_border=true&background=0D1117&stroke=30363D&ring=F78166&fire=F78166&currStreakLabel=F78166&sideLabels=E6EDF3&currStreakNum=E6EDF3&sideNums=E6EDF3&dates=9198A1&border_radius=6" width="49%" /> <img src="./assets/languages.svg" width="49%" />
 
-<img width="100%" alt="contribution graph" src="https://github-readme-activity-graph.vercel.app/graph?username=vilaayali&bg_color=0d1117&color=9198a1&title_color=e6edf3&line=f78166&point=e6edf3&area=true&area_color=f78166&hide_border=true&radius=6&custom_title=Contributions%20%E2%80%94%20last%2031%20days" />
+<img width="100%" alt="contribution graph" src="./assets/contrib.svg" />
 
 <img width="100%" alt="contribution snake" src="https://raw.githubusercontent.com/vilaayali/vilaayali/output/snake.svg" />
 
