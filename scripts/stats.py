@@ -165,9 +165,12 @@ if __name__ == "__main__":
     else:
         try:
             user = fetch()
-        except Exception as e:  # keep the last good cards if the API is down
-            print(f"warning: GitHub API failed ({e}); keeping existing cards")
-            sys.exit(0)
+        except Exception as e:
+            if os.path.exists(os.path.join(OUT, "contrib.svg")):
+                print(f"warning: GitHub API failed ({e}); keeping existing cards")
+                sys.exit(0)
+            print(f"warning: GitHub API failed ({e}); writing default cards")
+            user = empty()
     os.makedirs(OUT, exist_ok=True)
     open(os.path.join(OUT, "contrib.svg"), "w").write(calendar(user))
     open(os.path.join(OUT, "languages.svg"), "w").write(languages(user))

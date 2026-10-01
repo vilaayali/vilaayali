@@ -17,7 +17,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # If this step fails, the default assets/snake.svg already in the repo stays visible
+      - name: Default snake (only if none exists yet)
+        run: "[ -f assets/snake.svg ] || python scripts/snake_placeholder.py"
+
+      # If this step fails, the existing/default assets/snake.svg stays visible
       - uses: Platane/snk/svg-only@v3
         continue-on-error: true
         with:
