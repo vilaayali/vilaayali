@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="340" viewBox="0 0 600 340" fill="none">
+<defs>
+<linearGradient id="vc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7C5CFF"/><stop offset=".55" stop-color="#22D3EE"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+<clipPath id="frame"><rect width="600" height="340" rx="24"/></clipPath>
+<linearGradient id="bd" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#7C5CFF"/><stop offset=".3" stop-color="#1C2230"/><stop offset=".7" stop-color="#1C2230"/><stop offset="1" stop-color="#22D3EE"/>
+<animateTransform attributeName="gradientTransform" type="rotate" values="0 .5 .5;360 .5 .5" dur="8s" repeatCount="indefinite"/></linearGradient>
+<radialGradient id="spot" cx=".8" cy=".2" r=".7"><stop offset="0" stop-color="#7C5CFF" stop-opacity=".22"/><stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/></radialGradient>
+<style>
+text { font-family: 'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif; }
+.mono { font-family: 'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace; }
+@keyframes spin { to { transform: rotate(360deg) } }
+@keyframes pulse { 0%,100% { opacity: 1 } 50% { opacity: .25 } }
+@keyframes blink { 50% { opacity: 0 } }
+@keyframes up { from { opacity: 0; transform: translateY(18px) } to { opacity: 1; transform: none } }
+@keyframes draw { to { stroke-dashoffset: 0 } }
+@keyframes ping { 0% { r: 4; opacity: .9 } 100% { r: 30; opacity: 0 } }
+@keyframes twinkle { 0%,100% { opacity: .15 } 50% { opacity: 1 } }
+.up { animation: up .9s cubic-bezier(.2,.7,.2,1) both; }
+
+.bar { transform-box: fill-box; transform-origin: bottom; animation: grow 2.6s cubic-bezier(.2,.7,.2,1) infinite alternate; }
+@keyframes grow { from { transform: scaleY(.2) } to { transform: scaleY(1) } }
+.float { animation: float 3.2s ease-in-out infinite; }
+@keyframes float { 50% { transform: translateY(-6px) } }
+.shim { animation: shim 1.8s linear infinite; }
+@keyframes shim { from { transform: translateX(-140px) } to { transform: translateX(160px) } }
+.bounce { transform-box: fill-box; transform-origin: center; animation: bounce 2s cubic-bezier(.3,1.6,.5,1) infinite; }
+@keyframes bounce { 0%,60%,100% { transform: scale(1) } 70% { transform: scale(1.35) } }
+.typing { animation: blink 1s steps(1) infinite; }
+
+</style>
+</defs>
+<g clip-path="url(#frame)">
+
+<rect width="600" height="340" rx="24" fill="#0D1017"/>
+<rect width="600" height="340" fill="url(#spot)"/>
+<text x="32" y="50" class="mono" font-size="12" fill="#8B93A7" letter-spacing="1.5">01 — BACKEND</text>
+<text x="32" y="96" font-size="28" font-weight="800" letter-spacing="-1" fill="#F4F5F8">Blog Management API</text>
+<rect x="32" y="112" width="40" height="3" rx="1.5" fill="url(#vc)"/>
+<text x="32" y="150" font-size="15" fill="#8B93A7">JWT auth, author-owned posts,</text><text x="32" y="174" font-size="15" fill="#8B93A7">search and filters with</text><text x="32" y="198" font-size="15" fill="#8B93A7">pagination, image uploads and</text><text x="32" y="222" font-size="15" fill="#8B93A7">Swagger docs.</text>
+<rect x="32" y="276" width="73" height="28" rx="14" fill="#121621" stroke="#1C2230"/><text x="68" y="295" text-anchor="middle" class="mono" font-size="12" fill="#F4F5F8">Node.js</text><rect x="112.6" y="276" width="73" height="28" rx="14" fill="#121621" stroke="#1C2230"/><text x="149" y="295" text-anchor="middle" class="mono" font-size="12" fill="#F4F5F8">Express</text><rect x="193.2" y="276" width="96" height="28" rx="14" fill="#121621" stroke="#1C2230"/><text x="241" y="295" text-anchor="middle" class="mono" font-size="12" fill="#F4F5F8">PostgreSQL</text>
+<g transform="translate(360,60)"><rect width="210" height="220" rx="16" fill="#121621" stroke="#1C2230"/><g class="up" style="animation-delay:0.30s"><rect x="14" y="26" width="182" height="36" rx="10" fill="#0D1017" stroke="#1C2230"/><text x="26" y="49" class="mono" font-size="11" font-weight="700" fill="#22D3EE">GET</text><text x="70" y="49" class="mono" font-size="11" fill="#F4F5F8">/posts</text><circle cx="182" cy="44" r="4" fill="#22C55E" style="animation: pulse 1.4s 0.0s infinite"/></g><g class="up" style="animation-delay:0.45s"><rect x="14" y="74" width="182" height="36" rx="10" fill="#0D1017" stroke="#1C2230"/><text x="26" y="97" class="mono" font-size="11" font-weight="700" fill="#7C5CFF">POST</text><text x="70" y="97" class="mono" font-size="11" fill="#F4F5F8">/auth/login</text><circle cx="182" cy="92" r="4" fill="#22C55E" style="animation: pulse 1.4s 0.3s infinite"/></g><g class="up" style="animation-delay:0.60s"><rect x="14" y="122" width="182" height="36" rx="10" fill="#0D1017" stroke="#1C2230"/><text x="26" y="145" class="mono" font-size="11" font-weight="700" fill="#F472B6">PUT</text><text x="70" y="145" class="mono" font-size="11" fill="#F4F5F8">/users/:id</text><circle cx="182" cy="140" r="4" fill="#22C55E" style="animation: pulse 1.4s 0.6s infinite"/></g><g class="up" style="animation-delay:0.75s"><rect x="14" y="170" width="182" height="36" rx="10" fill="#0D1017" stroke="#1C2230"/><text x="26" y="193" class="mono" font-size="11" font-weight="700" fill="#F87171">DEL</text><text x="70" y="193" class="mono" font-size="11" fill="#F4F5F8">/posts/:id</text><circle cx="182" cy="188" r="4" fill="#22C55E" style="animation: pulse 1.4s 0.9s infinite"/></g><circle r="4" fill="#22D3EE"><animateMotion dur="2.4s" repeatCount="indefinite" path="M -40 44 L 14 44"/></circle></g>
+
+</g>
+
+<rect x="1" y="1" width="598" height="338" rx="23" fill="none" stroke="url(#bd)" stroke-width="1.5"/>
+</svg>

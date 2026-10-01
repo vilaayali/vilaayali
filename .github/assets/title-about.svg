@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="96" viewBox="0 0 1200 96" fill="none">
+<defs>
+<linearGradient id="vc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7C5CFF"/><stop offset=".55" stop-color="#22D3EE"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+<clipPath id="frame"><rect width="1200" height="96" rx="0"/></clipPath>
+
+<style>
+text { font-family: 'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif; }
+.mono { font-family: 'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace; }
+@keyframes spin { to { transform: rotate(360deg) } }
+@keyframes pulse { 0%,100% { opacity: 1 } 50% { opacity: .25 } }
+@keyframes blink { 50% { opacity: 0 } }
+@keyframes up { from { opacity: 0; transform: translateY(18px) } to { opacity: 1; transform: none } }
+@keyframes draw { to { stroke-dashoffset: 0 } }
+@keyframes ping { 0% { r: 4; opacity: .9 } 100% { r: 30; opacity: 0 } }
+@keyframes twinkle { 0%,100% { opacity: .15 } 50% { opacity: 1 } }
+.up { animation: up .9s cubic-bezier(.2,.7,.2,1) both; }
+
+.ln { stroke-dasharray: 1200; stroke-dashoffset: 1200; animation: draw 1.6s .3s cubic-bezier(.2,.7,.2,1) forwards; }
+.dot { animation: pulse 1.6s ease-in-out infinite; }
+</style>
+</defs>
+<g clip-path="url(#frame)">
+
+<text x="0" y="60" class="mono up" font-size="15" fill="url(#vc)" font-weight="700">01</text>
+<text x="44" y="64" class="up" style="animation-delay:.1s" font-size="38" font-weight="800" letter-spacing="-1.5" fill="#F4F5F8">About<tspan fill="#22D3EE">.</tspan></text>
+<line class="ln" x1="169" y1="52" x2="1010" y2="52" stroke="#1C2230" stroke-width="1.5"/>
+<circle class="dot" cx="1024" cy="52" r="4" fill="#22D3EE"/>
+<text x="1200" y="57" text-anchor="end" class="mono up" style="animation-delay:.3s" font-size="13" fill="#8B93A7" letter-spacing="1.5">WHO I AM</text>
+</g>
+
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" fill="none">
+<defs>
+<linearGradient id="vc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7C5CFF"/><stop offset=".55" stop-color="#22D3EE"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+<clipPath id="frame"><rect width="1200" height="300" rx="24"/></clipPath>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#4A5268" opacity="0.5"/></pattern>
+<style>
+text { font-family: 'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif; }
+.mono { font-family: 'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace; }
+@keyframes spin { to { transform: rotate(360deg) } }
+@keyframes pulse { 0%,100% { opacity: 1 } 50% { opacity: .25 } }
+@keyframes blink { 50% { opacity: 0 } }
+@keyframes up { from { opacity: 0; transform: translateY(18px) } to { opacity: 1; transform: none } }
+@keyframes draw { to { stroke-dashoffset: 0 } }
+@keyframes ping { 0% { r: 4; opacity: .9 } 100% { r: 30; opacity: 0 } }
+@keyframes twinkle { 0%,100% { opacity: .15 } 50% { opacity: 1 } }
+.up { animation: up .9s cubic-bezier(.2,.7,.2,1) both; }
+@keyframes wave { to { transform: translateX(-600px) } }
+</style>
+</defs>
+<g clip-path="url(#frame)">
+
+<rect width="1200" height="300" fill="#07080C"/>
+<rect width="1200" height="300" fill="url(#dots)" opacity=".6"/>
+<path d="M0 240 Q 75.0 224 150.0 240 T 300 240 Q 375.0 224 450.0 240 T 600 240 Q 675.0 224 750.0 240 T 900 240 Q 975.0 224 1050.0 240 T 1200 240 Q 1275.0 224 1350.0 240 T 1500 240 Q 1575.0 224 1650.0 240 T 1800 240 Q 1875.0 224 1950.0 240 T 2100 240 Q 2175.0 224 2250.0 240 T 2400 240 Q 2475.0 224 2550.0 240 T 2700 240 V 300 H 0 Z" fill="#7C5CFF" opacity="0.35" style="animation: wave 9s linear 0s infinite"/><path d="M0 252 Q 75.0 240 150.0 252 T 300 252 Q 375.0 240 450.0 252 T 600 252 Q 675.0 240 750.0 252 T 900 252 Q 975.0 240 1050.0 252 T 1200 252 Q 1275.0 240 1350.0 252 T 1500 252 Q 1575.0 240 1650.0 252 T 1800 252 Q 1875.0 240 1950.0 252 T 2100 252 Q 2175.0 240 2250.0 252 T 2400 252 Q 2475.0 240 2550.0 252 T 2700 252 V 300 H 0 Z" fill="#22D3EE" opacity="0.25" style="animation: wave 13s linear 0s infinite"/><path d="M0 266 Q 75.0 256 150.0 266 T 300 266 Q 375.0 256 450.0 266 T 600 266 Q 675.0 256 750.0 266 T 900 266 Q 975.0 256 1050.0 266 T 1200 266 Q 1275.0 256 1350.0 266 T 1500 266 Q 1575.0 256 1650.0 266 T 1800 266 Q 1875.0 256 1950.0 266 T 2100 266 Q 2175.0 256 2250.0 266 T 2400 266 Q 2475.0 256 2550.0 266 T 2700 266 V 300 H 0 Z" fill="#F472B6" opacity="0.2" style="animation: wave 17s linear 0s infinite"/>
+<text x="600.0" y="104" text-anchor="middle" class="up" font-size="46" font-weight="800" letter-spacing="-2" fill="#F4F5F8">Let's build something <tspan fill="url(#vc)">great</tspan>.</text>
+<text x="600.0" y="146" text-anchor="middle" class="mono up" style="animation-delay:.2s" font-size="15" fill="#8B93A7">vilaayali89@gmail.com  ·  vilaayali.com  ·  linkedin.com/in/syedvilaayali</text>
+<g class="up" style="animation-delay:.35s"><rect x="518.0" y="170" width="164" height="40" rx="20" fill="#F4F5F8"/>
+<text x="600.0" y="196" text-anchor="middle" font-size="15" font-weight="700" fill="#07080C">Say hello  →</text></g>
+</g>
+<rect x="0.5" y="0.5" width="1199" height="299" rx="24" fill="none" stroke="#1C2230"/>
+</svg>
