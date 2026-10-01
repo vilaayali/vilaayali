@@ -160,7 +160,9 @@ gitGraph
 
 <img src="https://streak-stats.demolab.com?user=vilaayali&hide_border=true&background=0D1117&stroke=30363D&ring=F78166&fire=F78166&currStreakLabel=F78166&sideLabels=E6EDF3&currStreakNum=E6EDF3&sideNums=E6EDF3&dates=9198A1&border_radius=6" width="49%" /> <img src="./assets/languages.svg" width="49%" />
 
-<img width="100%" alt="contribution graph" src="./assets/contrib.svg" />
+<img width="100%" alt="all-time contribution graph" src="./assets/contrib.svg" />
+
+<p align="center"><img src="https://komarev.com/ghpvc/?username=vilaayali&style=for-the-badge&color=f78166&label=profile+views" /></p>
 
 <img width="100%" alt="contribution snake" src="https://raw.githubusercontent.com/vilaayali/vilaayali/output/snake.svg" />
 
