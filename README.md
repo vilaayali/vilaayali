@@ -164,7 +164,7 @@ gitGraph
 
 <p align="center"><img src="https://komarev.com/ghpvc/?username=vilaayali&style=for-the-badge&color=f78166&label=profile+views" /></p>
 
-<img width="100%" alt="contribution snake" src="https://raw.githubusercontent.com/vilaayali/vilaayali/output/snake.svg" />
+<img width="100%" alt="contribution snake" src="./assets/snake.svg" />
 
 ## 🏷️ Releases
 

@@ -27,7 +27,7 @@ def gql(query):
                                  headers={"Authorization": f"bearer {os.environ['GH_TOKEN']}", "User-Agent": USER})
     data = json.load(urllib.request.urlopen(req))
     if "errors" in data:
-        sys.exit(f"GraphQL error: {data['errors']}")
+        raise RuntimeError(f"GraphQL error: {data['errors']}")
     return data["data"]["user"]
 
 
@@ -60,6 +60,12 @@ def demo():
              ("CSS", "#663399", 7), ("HTML", "#e34c26", 6), ("Python", "#3572A5", 3)]
     return {"years": years,
             "repositories": {"nodes": [{"languages": {"edges": [{"size": s, "node": {"name": n, "color": c}} for n, c, s in langs]}}]}}
+
+
+def empty():
+    """Default data so the cards always render, even with 0 contributions or no API access."""
+    y = datetime.date.today().year
+    return {"years": {y: {"totalContributions": 0, "weeks": []}}, "repositories": {"nodes": []}}
 
 
 def frame(w, h, body, css=""):
@@ -131,6 +137,8 @@ def languages(user):
             n = e["node"]["name"]
             tot.setdefault(n, [0, e["node"]["color"] or MUTED])[0] += e["size"]
     top = sorted(tot.items(), key=lambda kv: -kv[1][0])[:6]
+    if not top:
+        top = [("No data yet", [1, "#30363D"])]
     s = sum(v[0] for _, v in top) or 1
     W, H = 495, 195
     bar, x, bw = "", 22, W - 44
@@ -143,14 +151,23 @@ def languages(user):
         cx, cy = 22 + (i % 2) * 230, 92 + (i // 2) * 30
         rows += (f'<g class="c" style="animation-delay:{300+i*80}ms"><circle cx="{cx+5}" cy="{cy-4}" r="5" fill="{col}"/>'
                  f'<text x="{cx+18}" y="{cy}" font-size="13" font-weight="600" fill="{TEXT}">{n} '
-                 f'<tspan fill="{MUTED}" font-weight="400">{size/s*100:.1f}%</tspan></text></g>')
+                 f'<tspan fill="{MUTED}" font-weight="400">{"" if n == "No data yet" else f"{size/s*100:.1f}%"}</tspan></text></g>')
     title = f'<text x="22" y="34" font-size="15" font-weight="600" fill="{TEXT}">Most used languages</text>'
     clip = f'<clipPath id="b"><rect x="22" y="52" width="{bw}" height="8" rx="4"/></clipPath>'
     return frame(W, H, title + clip + f'<g clip-path="url(#b)"><rect x="22" y="52" width="{bw}" height="8" fill="#21262D"/>{bar}</g>' + rows)
 
 
 if __name__ == "__main__":
-    user = demo() if "--demo" in sys.argv else fetch()
+    if "--demo" in sys.argv:
+        user = demo()
+    elif "--empty" in sys.argv:
+        user = empty()
+    else:
+        try:
+            user = fetch()
+        except Exception as e:  # keep the last good cards if the API is down
+            print(f"warning: GitHub API failed ({e}); keeping existing cards")
+            sys.exit(0)
     os.makedirs(OUT, exist_ok=True)
     open(os.path.join(OUT, "contrib.svg"), "w").write(calendar(user))
     open(os.path.join(OUT, "languages.svg"), "w").write(languages(user))
