@@ -1,70 +1,207 @@
-<a href="https://www.vilaayali.com/"><img src="./assets/hero.svg" width="100%" alt="Syed Vilaay Ali — Software Engineer. I build real-time apps, scalable APIs and pixel-perfect UIs." /></a>
+<a id="top"></a>
 
-<p align="center">
-  <a href="https://www.vilaayali.com/"><img src="https://img.shields.io/badge/Portfolio-vilaayali.com-7C5CFF?style=for-the-badge&labelColor=0D1017" /></a>
-  <a href="https://linkedin.com/in/syedvilaayali"><img src="https://img.shields.io/badge/LinkedIn-Connect-22D3EE?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1017" /></a>
-  <a href="mailto:vilaayali89@gmail.com"><img src="https://img.shields.io/badge/Email-Say_hello-F472B6?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1017" /></a>
-  <img src="https://komarev.com/ghpvc/?username=vilaayali&style=for-the-badge&color=0D1017&label=VIEWS" />
-</p>
+<a href="https://www.vilaayali.com"><img src="./assets/repo-card.svg" width="100%" alt="vilaayali/vilaayali — Full-stack developer building real-time web apps, clean APIs and fast UIs." /></a>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/title-about.svg" />
-  <img src="./assets/title-about-light.svg" width="100%" alt="01 About" />
-</picture>
+<div align="center">
 
-<p align="center">
-  <img src="./assets/terminal.svg" width="49%" alt="Terminal: whoami — Syed Vilaay Ali, software engineer" />
-  <img src="./assets/bento.svg" width="49%" alt="Based in Lahore · 2+ years experience · Open to work" />
-</p>
+### 🔗 [vilaayali.com](https://www.vilaayali.com)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/title-experience.svg" />
-  <img src="./assets/title-experience-light.svg" width="100%" alt="02 Experience" />
-</picture>
+[![website](https://img.shields.io/badge/website-vilaayali.com-f78166?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.vilaayali.com)
+[![linkedin](https://img.shields.io/badge/LinkedIn-connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/syedvilaayali)
+[![email](https://img.shields.io/badge/email-say_hi-30363d?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vilaayali89@gmail.com)
 
-<img src="./assets/experience.svg" width="100%" alt="Experience timeline: Bestel Communications, Ginkgo Retail, European University of Lefke" />
+[![build](https://img.shields.io/badge/build-passing-3fb950?style=flat-square&logo=githubactions&logoColor=white)](#)
+[![version](https://img.shields.io/badge/release-v2026.10-1f6feb?style=flat-square&logo=github&logoColor=white)](#%EF%B8%8F-releases)
+[![react](https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB)](#-dependencies)
+[![next](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white)](#-dependencies)
+[![node](https://img.shields.io/badge/Node.js-1b2a1b?style=flat-square&logo=nodedotjs&logoColor=5FA04E)](#-dependencies)
+[![license](https://img.shields.io/badge/license-MIT-6e7681?style=flat-square)](#-license)
+[![followers](https://img.shields.io/github/followers/vilaayali?style=flat-square&logo=github&label=followers&color=30363d)](https://github.com/vilaayali?tab=followers)
+[![stars](https://img.shields.io/github/stars/vilaayali?style=flat-square&logo=github&label=stars&color=e3b341&affiliations=OWNER)](https://github.com/vilaayali?tab=repositories)
+![views](https://komarev.com/ghpvc/?username=vilaayali&style=flat-square&color=f78166&label=profile+views)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/title-work.svg" />
-  <img src="./assets/title-work-light.svg" width="100%" alt="03 Selected work" />
-</picture>
+[**Install**](#-installation) · [**Usage**](#-usage) · [**Projects**](#-projects) · [**Architecture**](#%EF%B8%8F-architecture) · [**Changelog**](#-git-log) · [**Activity**](#-activity) · [**Contributing**](#-contributing) · [**FAQ**](#-faq)
 
-<p align="center">
-  <a href="https://github.com/vilaayali"><img src="./assets/project-blog-api.svg" width="49%" alt="Blog Management API" /></a>
-  <a href="https://github.com/vilaayali"><img src="./assets/project-convers.svg" width="49%" alt="Convers by Ginkgo" /></a>
-  <a href="https://github.com/vilaayali"><img src="./assets/project-store.svg" width="49%" alt="Sanaullah Store" /></a>
-  <a href="https://www.vilaayali.com/"><img src="./assets/project-portfolio.svg" width="49%" alt="vilaayali.com" /></a>
-</p>
+</div>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/title-stack.svg" />
-  <img src="./assets/title-stack-light.svg" width="100%" alt="04 Toolkit" />
-</picture>
+> [!TIP]
+> **Open to collaborations.** Got a project in mind? Jump to [Contributing](#-contributing) — I usually reply within a day.
 
-<img src="./assets/stack.svg" width="100%" alt="React, Next.js, JavaScript, Redux, Tailwind, Node.js, Express, PostgreSQL, MongoDB, Socket.io and more" />
+## 📦 Installation
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/title-activity.svg" />
-  <img src="./assets/title-activity-light.svg" width="100%" alt="05 Activity" />
-</picture>
+```bash
+git clone https://github.com/vilaayali/vilaayali.git
+cd vilaayali && open https://www.vilaayali.com
+```
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
-  <img src="./profile-3d-contrib/profile-season-animate.svg" width="100%" alt="3D contribution graph" />
-</picture>
+## ✨ Features
 
-<p align="center">
-  <img src="./metrics.overview.svg" width="49%" />
-  <img src="./metrics.languages.svg" width="49%" />
-</p>
+```diff
+- slow pages, full reloads, undocumented endpoints
++ instant UIs, live updates over WebSockets, APIs with Swagger docs
+```
 
-<img width="100%" src="https://streak-stats.demolab.com?user=vilaayali&hide_border=true&background=0D1017&ring=7C5CFF&fire=22D3EE&currStreakLabel=F4F5F8&sideLabels=8B93A7&currStreakNum=F4F5F8&sideNums=F4F5F8&dates=8B93A7&stroke=1C2230&border_radius=24" />
+- ⚡ **Real-time** — live data streaming over WebSockets
+- 🔐 **APIs** — REST with JWT auth, Zod validation and Swagger docs
+- 🎨 **UI** — responsive, lazy-loaded, pixel-tidy
+- 🛒 **Commerce** — storefronts and admin panels built to scale
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=vilaayali&bg_color=0D1017&color=8B93A7&line=7C5CFF&point=22D3EE&area=true&area_color=7C5CFF&hide_border=true&radius=24" />
+## 🚀 Usage
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vilaayali/vilaayali/output/snake-dark.svg" />
-  <img width="100%" alt="contribution snake" src="https://raw.githubusercontent.com/vilaayali/vilaayali/output/snake-light.svg" />
-</picture>
+```ts
+import { vilaayali } from "vilaayali";
 
-<a href="mailto:vilaayali89@gmail.com"><img src="./assets/footer.svg" width="100%" alt="Let's build something great — vilaayali89@gmail.com" /></a>
+const app = await vilaayali.build({
+  frontend: ["React", "Next.js", "Tailwind", "Redux"],
+  backend:  ["Node.js", "Express", "PostgreSQL", "MongoDB"],
+  realtime: "Socket.io",
+});
+
+app.ship(); // ✔ compiled  ✔ tested  ✔ deployed
+```
+
+## 📁 Projects
+
+| | Project | What it does | Built with |
+| :-: | :-- | :-- | :-- |
+| 🔐 | [**blog-management-api**](https://github.com/vilaayali) | REST API with auth, posts, search & uploads | `Node.js` `Express` `PostgreSQL` |
+| 🧭 | [**convers-by-ginkgo**](https://github.com/vilaayali) | Admin panel with routing & validated forms | `React` `Next.js` `MUI` |
+| 🛒 | [**sanaullah-store**](https://github.com/vilaayali) | Storefront wired to live product APIs | `Next.js` `Sass` |
+| 🌐 | [**vilaayali.com**](https://www.vilaayali.com) · [code](https://github.com/vilaayali/vilaayali_portfolio) | My personal site | `React` `Vite` `Vercel` |
+
+<details>
+<summary><b>blog-management-api</b> — more details</summary>
+
+<br>
+
+- JWT authentication with author-owned posts
+- Search, filters and pagination
+- Image uploads via Cloudinary
+- Full Swagger / OpenAPI docs
+- `Node.js` · `Express` · `PostgreSQL` · `Sequelize` · `Zod`
+
+</details>
+
+<details>
+<summary><b>convers-by-ginkgo</b> — more details</summary>
+
+<br>
+
+- Responsive admin panel with dynamic routing
+- Validated forms and a reusable component library
+- `React` · `Next.js` · `MUI` · `Sass`
+
+</details>
+
+<details>
+<summary><b>sanaullah-store</b> — more details</summary>
+
+<br>
+
+- Storefront integrated with live product and user APIs
+- Clean, responsive UI across devices
+- `React` · `Next.js` · `MUI` · `Sass`
+
+</details>
+
+## 🏗️ Architecture
+
+How I usually put an app together:
+
+```mermaid
+flowchart LR
+  U([👤 User]) --> FE["⚛️ Next.js / React<br/>Tailwind · Redux"]
+  FE -- REST --> API["🟢 Node.js + Express<br/>JWT · Zod · Swagger"]
+  FE <-. "WebSocket" .-> RT["⚡ Socket.io"]
+  RT --- API
+  API --> DB[("🐘 PostgreSQL<br/>Sequelize")]
+  API --> MDB[("🍃 MongoDB<br/>Mongoose")]
+  API --> CDN["☁️ Cloudinary"]
+  FE --> V["▲ Vercel"]
+```
+
+## 🌳 git log
+
+```mermaid
+gitGraph
+  commit id: "hello world"
+  branch frontend
+  commit id: "convers-by-ginkgo"
+  commit id: "sanaullah-store"
+  checkout main
+  merge frontend
+  branch backend
+  commit id: "blog-management-api"
+  commit id: "jwt + swagger"
+  checkout main
+  merge backend
+  commit id: "vilaayali.com" type: HIGHLIGHT
+  commit id: "next: your idea?"
+```
+
+## 🧱 Dependencies
+
+```json
+{
+  "dependencies": {
+    "react": "latest", "next": "latest", "redux": "latest",
+    "tailwindcss": "latest", "@tanstack/react-query": "latest",
+    "node": "latest", "express": "latest", "socket.io": "latest",
+    "postgresql": "latest", "mongodb": "latest"
+  },
+  "devDependencies": { "coffee": "*", "git": "*", "vercel": "*" }
+}
+```
+
+## 📊 Activity
+
+> [!NOTE]
+> Stats include private repositories.
+
+<img src="https://streak-stats.demolab.com?user=vilaayali&hide_border=true&background=0D1117&stroke=30363D&ring=F78166&fire=F78166&currStreakLabel=F78166&sideLabels=E6EDF3&currStreakNum=E6EDF3&sideNums=E6EDF3&dates=9198A1&border_radius=6" width="49%" /> <img src="./metrics.languages.svg" width="49%" />
+
+<img width="100%" alt="contribution graph" src="https://github-readme-activity-graph.vercel.app/graph?username=vilaayali&bg_color=0d1117&color=9198a1&title_color=e6edf3&line=f78166&point=e6edf3&area=true&area_color=f78166&hide_border=true&radius=6&custom_title=Contributions%20%E2%80%94%20last%2031%20days" />
+
+<img width="100%" alt="contribution snake" src="https://raw.githubusercontent.com/vilaayali/vilaayali/output/snake.svg" />
+
+## 🏷️ Releases
+
+| Version | Notes |
+| :-- | :-- |
+| **v2026.10** `latest` | New profile · open to collaborations |
+| v2025.08 | Real-time apps over WebSockets |
+| v2024.11 | First production e-commerce work |
+
+## 🤝 Contributing
+
+> [!IMPORTANT]
+> Ideas, projects and bug reports welcome. Press <kbd>Ctrl</kbd> + <kbd>Enter</kbd> on an [email to me](mailto:vilaayali89@gmail.com), or ping me on [LinkedIn](https://linkedin.com/in/syedvilaayali).
+
+## ❓ FAQ
+
+<details>
+<summary><b>Are you open to freelance or contract work?</b></summary>
+<br>
+Yes — <a href="mailto:vilaayali89@gmail.com">email me</a> with a short brief and timeline.
+</details>
+
+<details>
+<summary><b>What kind of projects do you enjoy most?</b></summary>
+<br>
+Real-time apps, dashboards and anything where speed and clean UX matter.
+</details>
+
+<details>
+<summary><b>Where can I see more of your work?</b></summary>
+<br>
+On <a href="https://www.vilaayali.com">vilaayali.com</a> and in the pinned repositories below.
+</details>
+
+## 📄 License
+
+MIT © Syed Vilaay Ali — free to reach out, fork ideas and build together.
+
+<div align="center">
+<br>
+<sub>Made with ☕ · ⭐ star a repo if something helped · <a href="#top">back to top ↑</a></sub>
+</div>
